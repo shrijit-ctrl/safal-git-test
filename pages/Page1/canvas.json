@@ -1,0 +1,177 @@
+{
+  "unpublishedPage": {
+    "name": "Page1",
+    "slug": "page1",
+    "layouts": [
+      {
+        "viewMode": false,
+        "dsl": {
+          "widgetName": "MainContainer",
+          "backgroundColor": "none",
+          "rightColumn": 4896,
+          "snapColumns": 64,
+          "detachFromLayout": true,
+          "widgetId": "0",
+          "topRow": 0,
+          "bottomRow": 650,
+          "containerStyle": "none",
+          "snapRows": 124,
+          "parentRowSpace": 1,
+          "type": "CANVAS_WIDGET",
+          "canExtend": true,
+          "version": 87,
+          "minHeight": 1292,
+          "dynamicTriggerPathList": [],
+          "parentColumnSpace": 1,
+          "dynamicBindingPathList": [],
+          "leftColumn": 0,
+          "children": [
+            {
+              "mobileBottomRow": 33,
+              "widgetName": "Progress1",
+              "progressType": "linear",
+              "isCanvas": false,
+              "displayName": "Progress",
+              "iconSVG": "/static/media/icon.9b0d7b96a0223e8120bf6f14aca4154a.svg",
+              "searchTags": [
+                "percent"
+              ],
+              "topRow": 29,
+              "bottomRow": 65,
+              "parentRowSpace": 10,
+              "type": "PROGRESS_WIDGET",
+              "isIndeterminate": true,
+              "hideCard": false,
+              "fillColor": "{{appsmith.theme.colors.primaryColor}}",
+              "mobileRightColumn": 48,
+              "parentColumnSpace": 16.40625,
+              "dynamicTriggerPathList": [],
+              "leftColumn": 42,
+              "dynamicBindingPathList": [
+                {
+                  "key": "fillColor"
+                },
+                {
+                  "key": "borderRadius"
+                }
+              ],
+              "key": "q3htggo8bg",
+              "showResult": false,
+              "isDeprecated": false,
+              "rightColumn": 64,
+              "counterClosewise": false,
+              "customStyle": {
+                "default": {},
+                "hover": {},
+                "focus": {},
+                "active": {}
+              },
+              "widgetId": "ecxlp159qc",
+              "isVisible": true,
+              "steps": 1,
+              "version": 1,
+              "parentId": "0",
+              "tags": [
+                "Content"
+              ],
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 29,
+              "responsiveBehavior": "fill",
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 20,
+              "progress": 50
+            },
+            {
+              "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+              "mobileBottomRow": 36,
+              "widgetName": "Custom1",
+              "borderColor": "#E0DEDE",
+              "srcDoc": {
+                "html": "<script src=\"https://api.unified.to/docs/unified.js?wid=6915746d8544296753809402&did=unified_widget&notabs=true\"></script>\n<div id=\"unified_widget\"></div>",
+                "css": ".app {\n  width: calc(1px * var(--appsmith-ui-width));\n  justify-content: center;\n  border-radius: 0px;\n  border: none;\n}\n.app .tip-container {\n  margin-bottom: 20px;\n}\n.app .tip-container h2 {\n  margin-bottom: 20px;\n  font-size: 16px;\n  font-weight: 700;\n}\n.app .tip-container .tip-header {\n  display: flex;\n  justify-content: space-between;\n  align-items: baseline;\n}\n.app .tip-container .tip-header div {\n  color: #999;\n}\n.app .button-container {\n  text-align: right;\n}\n.app .button-container button {\n  margin: 0 10px;\n  border-radius: var(--appsmith-theme-borderRadius) !important;\n}\n.app .button-container button.primary {\n  background: var(--appsmith-theme-primaryColor) !important;\n}\n.app .button-container button.reset:not([disabled]) {\n  color: var(--appsmith-theme-primaryColor) !important;\n  border-color: var(--appsmith-theme-primaryColor) !important;\n}",
+                "js": ""
+              },
+              "isCanvas": false,
+              "displayName": "Custom",
+              "iconSVG": "/static/media/icon.867bcc8399fa3f897d425d72690b86e4.svg",
+              "searchTags": [
+                "external"
+              ],
+              "topRow": 6,
+              "bottomRow": 36,
+              "parentRowSpace": 10,
+              "type": "CUSTOM_WIDGET",
+              "hideCard": false,
+              "mobileRightColumn": 42,
+              "features": {
+                "dynamicHeight": {
+                  "sectionIndex": 2,
+                  "active": true,
+                  "defaultValue": "FIXED"
+                }
+              },
+              "parentColumnSpace": 16.40625,
+              "dynamicTriggerPathList": [],
+              "dynamicBindingPathList": [
+                {
+                  "key": "theme"
+                },
+                {
+                  "key": "borderRadius"
+                },
+                {
+                  "key": "boxShadow"
+                }
+              ],
+              "leftColumn": 19,
+              "defaultModel": "{\n  \"tips\": [\n    \"Pass data to this widget in the default model field\",\n    \"Access data in the javascript file using the appsmith.model variable\",\n    \"Create events in the widget and trigger them in the javascript file using appsmith.triggerEvent('eventName')\",\n    \"Access data in CSS as var(--appsmith-model-{property-name})\"\n  ]\n}",
+              "borderWidth": "1",
+              "theme": "{{appsmith.theme}}",
+              "onResetClick": "{{showAlert('Successfully reset!!', '');}}",
+              "events": [
+                "onResetClick"
+              ],
+              "key": "mjwz6vlhu5",
+              "backgroundColor": "#FFFFFF",
+              "isDeprecated": false,
+              "rightColumn": 42,
+              "dynamicHeight": "FIXED",
+              "isSearchWildcard": true,
+              "widgetId": "6zvxt91a3o",
+              "isVisible": true,
+              "version": 1,
+              "uncompiledSrcDoc": {
+                "html": "<script src=\"https://api.unified.to/docs/unified.js?wid=6915746d8544296753809402&did=unified_widget&notabs=true\"></script>\n<div id=\"unified_widget\"></div>",
+                "css": ".app {\n  width: calc(1px * var(--appsmith-ui-width));\n  justify-content: center;\n  border-radius: 0px;\n  border: none;\n\n  .tip-container {\n    margin-bottom: 20px;\n\n    h2 {\n      margin-bottom: 20px;\n      font-size: 16px;\n      font-weight: 700;\n    }\n\n    .tip-header {\n      display: flex;\n      justify-content: space-between;\n      align-items: baseline;\n\n      div {\n        color: #999;\n      }\n    }\n  }\n\n\t.button-container {\n      text-align: right;\n\n      button {\n        margin: 0 10px;\n        border-radius: var(--appsmith-theme-borderRadius) !important;\n\n        &.primary {\n          background: var(--appsmith-theme-primaryColor) !important;\n        }\n\n        &.reset:not([disabled]) {\n          color: var(--appsmith-theme-primaryColor) !important;\n          border-color: var(--appsmith-theme-primaryColor) !important;\n        }\n      }\n    }\n}\n",
+                "js": ""
+              },
+              "parentId": "0",
+              "tags": [
+                "Display"
+              ],
+              "renderMode": "CANVAS",
+              "isLoading": false,
+              "mobileTopRow": 6,
+              "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+              "mobileLeftColumn": 19,
+              "maxDynamicHeight": 9000,
+              "minDynamicHeight": 4
+            }
+          ]
+        },
+        "layoutOnLoadActions": [],
+        "layoutOnLoadActionErrors": [],
+        "validOnPageLoadActions": true,
+        "id": "Page1",
+        "deleted": false,
+        "policies": [],
+        "userPermissions": []
+      }
+    ],
+    "userPermissions": [],
+    "policies": []
+  },
+  "deleted": false,
+  "gitSyncId": "68f89c6507ea4716880b47ce_68f89c6507ea4716880b47d1"
+}
