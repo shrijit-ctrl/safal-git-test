@@ -46,7 +46,7 @@
               "mobileRightColumn": 48,
               "parentColumnSpace": 16.40625,
               "dynamicTriggerPathList": [],
-              "leftColumn": 42,
+              "leftColumn": 51,
               "dynamicBindingPathList": [
                 {
                   "key": "fillColor"
@@ -124,7 +124,7 @@
                   "key": "boxShadow"
                 }
               ],
-              "leftColumn": 19,
+              "leftColumn": 13,
               "defaultModel": "{\n  \"tips\": [\n    \"Pass data to this widget in the default model field\",\n    \"Access data in the javascript file using the appsmith.model variable\",\n    \"Create events in the widget and trigger them in the javascript file using appsmith.triggerEvent('eventName')\",\n    \"Access data in CSS as var(--appsmith-model-{property-name})\"\n  ]\n}",
               "borderWidth": "1",
               "theme": "{{appsmith.theme}}",
@@ -135,7 +135,7 @@
               "key": "mjwz6vlhu5",
               "backgroundColor": "#FFFFFF",
               "isDeprecated": false,
-              "rightColumn": 42,
+              "rightColumn": 51,
               "dynamicHeight": "FIXED",
               "isSearchWildcard": true,
               "widgetId": "6zvxt91a3o",
