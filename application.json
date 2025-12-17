@@ -9,6 +9,19 @@
   "viewMode": false,
   "appIsExample": false,
   "unreadCommentThreads": 0,
+  "unpublishedApplicationDetail": {
+    "navigationSetting": {
+      "showNavbar": true,
+      "orientation": "side",
+      "navStyle": "sidebar",
+      "position": "static",
+      "itemStyle": "text",
+      "colorStyle": "theme",
+      "logoAssetId": "",
+      "logoConfiguration": "applicationTitleOnly",
+      "showSignIn": true
+    }
+  },
   "color": "#C7F3F0",
   "icon": "bag",
   "unpublishedCustomJSLibs": [],
